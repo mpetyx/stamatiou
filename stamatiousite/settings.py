@@ -95,7 +95,7 @@ TEMPLATE_LOADERS = (
 #     'django.template.loaders.eggs.Loader',
 )
 
-#CMS_FRONTEND_LANGUAGES = ( 'gr','en')
+CMS_FRONTEND_LANGUAGES = ( 'gr','en-us')
 
 TEMPLATE_DIRS = (
     # The docs say it should be absolute path: PROJECT_PATH is precisely one.
@@ -109,7 +109,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-#    'cms.middleware.multilingual.MultilingualURLMiddleware',
+    'cms.middleware.multilingual.MultilingualURLMiddleware',
     'cms.middleware.page.CurrentPageMiddleware',
     'cms.middleware.user.CurrentUserMiddleware',
     'cms.middleware.toolbar.ToolbarMiddleware',
@@ -125,10 +125,10 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'sekizai.context_processors.sekizai',
 )
 
-#LANGUAGES = [
-#    ('en', 'English'),
-#    ('gr','Greek'),
-#]
+LANGUAGES = [
+    ('en-us', 'English'),
+    ('gr','Greek'),
+]
 
 CMS_TEMPLATES = (
                  ('template_1.html', 'Template One'),
