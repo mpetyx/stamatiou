@@ -8,7 +8,7 @@ import sys
 gettext = lambda s: s
 PROJECT_PATH = os.path.abspath(os.path.dirname(__file__))
 
-#sys.path.insert(0, '/path_to_app/app/')
+sys.path.insert(0, '../app/')
 
 
 
