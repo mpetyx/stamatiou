@@ -1,7 +1,7 @@
 django==1.4.3
 dj-database-url==0.2.1
 psycopg2==2.4.6
-django-cms
+django-cms==2.4
 South
 Markdown<2.3.0
 django-sekizai<0.7
