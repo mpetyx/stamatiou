@@ -101,6 +101,7 @@ TEMPLATE_LOADERS = (
 )
 
 CMS_FRONTEND_LANGUAGES = ( 'gr','en-us')
+CMS_LANGUAGES = ( 'gr','en-us')
 
 TEMPLATE_DIRS = (
     # The docs say it should be absolute path: PROJECT_PATH is precisely one.
