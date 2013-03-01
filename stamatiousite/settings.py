@@ -4,8 +4,13 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 import os
+import sys
 gettext = lambda s: s
 PROJECT_PATH = os.path.abspath(os.path.dirname(__file__))
+
+#sys.path.insert(0, '/path_to_app/app/')
+
+
 
 ADMINS = (
     ('mpetyx', 'mpetyx@gmail.com'),
